@@ -1,0 +1,1 @@
+const express = require('express'); const app = express(); const PORT = process.env.PORT || 5000; app.use(express.json()); app.get('/health', (req, res) => { res.status(200).json({ status: 'Gateway operational', service: 'Active' }); }); app.listen(PORT, () => { console.log('Gateway running on port ' + PORT); });

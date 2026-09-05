@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS business_records (id SERIAL PRIMARY KEY, title VARCHAR(255) NOT NULL, status VARCHAR(50) NOT NULL, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP); INSERT INTO business_records (title, status) VALUES ('Enterprise Portal Integration', 'Active');

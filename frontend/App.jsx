@@ -1,0 +1,1 @@
+import React, { useState } from 'react'; export default function App() { const [status, setStatus] = useState('System Online'); return (<div style={{ padding: '30px', fontFamily: 'sans-serif' }}><h2>Enterprise Microservices Portal</h2><p>Gateway Status: <strong>{status}</strong></p></div>); }
