@@ -1,0 +1,6 @@
+{
+  "name": "equiflow",
+  "version": "1.0.0",
+  "description": "Full-stack personal finance and peer expense splitting application",
+  "main": "index.js"
+}
