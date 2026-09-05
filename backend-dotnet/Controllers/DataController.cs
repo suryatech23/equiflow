@@ -1,1 +1,0 @@
-using Microsoft.AspNetCore.Mvc; namespace EnterpriseService.Controllers { [ApiController] [Route("api/[controller]")] public class DataController : ControllerBase { [HttpGet] public IActionResult GetEnterpriseData() { return Ok(new { message = "Data retrieved successfully from .NET backend" }); } } }

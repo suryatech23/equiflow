@@ -1,1 +1,0 @@
-package com.portal; public class RecordManager { private String recordTitle; private String recordStatus; public RecordManager(String title, String status) { this.recordTitle = title; this.recordStatus = status; } public String getRecordTitle() { return recordTitle; } public String getRecordStatus() { return recordStatus; } }
